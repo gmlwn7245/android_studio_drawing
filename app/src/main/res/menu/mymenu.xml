@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/change_button">
+        <item android:id="@+id/width_btn"
+            android:title="color"
+            android:icon="@drawable/line"
+            app:showAsAction="always"/>
+        <item android:id="@+id/color_btn"
+            android:title="color"
+            android:icon="@drawable/pen"
+
+            app:showAsAction="always"/>
+    </group>
+    <group
+        android:id="@+id/checkbox"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/blur_menu"
+            android:title="Blur"/>
+        <item
+            android:id="@+id/emboss_menu"
+            android:title="Emboss"/>
+    </group>
+
+</menu>
